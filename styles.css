@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1722080826167-4ea87368cbc5?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background: url(https://st.depositphotos.com/17620692/61017/v/450/depositphotos_610176554-stock-illustration-black-background-modern-minimalist-abstract.jpg);
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Mantiene el header fijo */
+    top: 0; /* Posiciona en la parte superior */
+    left: 0; /* Alinea a la izquierda */
+    right: 0; /* Alinea a la derecha */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.title-box {
+    background: url(https://st.depositphotos.com/17620692/61017/v/450/depositphotos_610176554-stock-illustration-black-background-modern-minimalist-abstract.jpg);
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px auto; 
+    border-radius: 5px;
+    max-width: 1000px; 
+    margin-top: 60px; /* Espacio para el header fijo */
+}
+
+.content-box {
+    background: url(https://img.freepik.com/fotos-premium/fondo-blanco-algo-sombra-gris_877352-51.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 20px auto; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; 
+}
+
+h2 {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: transparent;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
